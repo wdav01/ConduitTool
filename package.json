@@ -1,0 +1,18 @@
+{
+  "name": "conduit-tool",
+  "version": "0.1.0",
+  "private": true,
+  "main": "dist/index.js",
+  "bin": {
+    "conduit-tool": "dist/cli.js"
+  },
+  "scripts": {
+    "build": "tsc",
+    "test": "vitest run",
+    "lint": "echo 'no lint configured'"
+  },
+  "devDependencies": {
+    "typescript": "^5.3.3",
+    "vitest": "^1.2.0"
+  }
+}
